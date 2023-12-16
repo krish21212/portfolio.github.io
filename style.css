@@ -16,16 +16,18 @@ body
     margin:0;
 }
 
-#header
-{
-    width: 100%;
+#background-video {
     height: 100vh;
-    background-image: url(krish.jpg);
-    background-position: center; 
-}
+    width: 100vw;
+    object-fit: cover;
+    position:absolute;
+    z-index: -1;
+  }
+
+
 .container
 {
-    padding: 10px 10px;
+    padding: 0px 0px;
 }
 nav
 {
@@ -65,12 +67,12 @@ nav ul li a:hover::after{
 }
 .header-text
 {
-    margin-top: 20%;
+    margin-top: 0%;
     font-size: 30px;
     margin-left: 20px;
 }
 .header-text h1{
-font-size: 60ox;
+font-size: 80ox;
 margin-top: 20px;
 }
 .header-text  h1 span {
@@ -80,6 +82,7 @@ margin-top: 20px;
 {
     padding-top: 80PX;
     color:#ababab;
+     margin-top: 15%;
    
 }
 .row{
@@ -309,12 +312,15 @@ form .btn2 {
         margin-left: 0px;
     }
     .about-col-1 img{
-       display: none;
+       background-image: url("krish.jpg");
+       width: auto;
+       margin-bottom: 20px;
     }
        #about
        {
            padding: 0px 0px;
-           color:#ababab     
+           color:#ababab     ;
+           margin-top: 0%; 
  }
     #header
    {
@@ -330,6 +336,11 @@ form .btn2 {
     margin-top: 15px;
 
 }
+      #background-video { display: none; }
+    body {
+      
+      background-size: cover;
+    }
 
 }
  
