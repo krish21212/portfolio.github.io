@@ -82,7 +82,7 @@ margin-top: 20px;
 {
     padding-top: 80PX;
     color:#ababab;
-    margin-top: 12%;
+    margin-top: 15%;
    
 }
 .row{
@@ -289,7 +289,7 @@ form .btn2 {
  @media (max-width: 600px)
  {
     .tab-links{
-        margin-right: 50px;
+        margin-right: 60px;
         font-size: 15px;
         font-weight: 500;
         cursor: pointer;
