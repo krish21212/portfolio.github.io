@@ -16,7 +16,8 @@ function opentab(tabname)
 function hello() {
 let name=document.getElementById("name").value;
 let email=document.getElementById("email").value;
-if(name=="" || email=="")
+    let Message=document.getElementById("Message").value;
+if(name=="" || email=="" || Message="")
 {
     window.alert("Fill the all fields");
 }
